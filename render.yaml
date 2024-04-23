@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: school-project
+    env: docker
+    plan: free

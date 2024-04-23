@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/<user>/<the forked repository name>.git
+RUN git clone https://github.comxXBlackPlasmaXx/school-website.git
 
-WORKDIR /<the forked repository name>
+WORKDIR /school-website
 
 RUN npm install
 
